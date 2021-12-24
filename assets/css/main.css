@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+body {
+   /*  background-color: rgb(1, 1, 15); */
+    background: url('https://images.unsplash.com/photo-1610011722905-a2d4b5fca8c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') center/cover no-repeat;
+    font-family: 'The Nautigal', cursive;
+}
+.canvas{
+z-index: 1;
+}
+.text{
+    background: -webkit-linear-gradient(146deg, rgba(245,245,249,1) 13%, rgba(185,10,29,1) 50%, rgb(23, 56, 10) 83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+left:15%;
+    color: whitesmoke;
+    font-size: 200px;
+}
